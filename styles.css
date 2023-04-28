@@ -194,6 +194,8 @@ input[type=checkbox] {
         transition: 0.4s ease;
     }
 
+    
+
     .menu li + li {
         margin-top: 12px;
     }
