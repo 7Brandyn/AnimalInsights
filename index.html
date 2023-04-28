@@ -11,22 +11,39 @@
     <title>Animal Insights</title>
 </head>
 <body>
-    <nav>
-        <div class="brand">
-            <img src="#" alt="favicon">
-            <div>Animal Insights</div>
+    <div class="image_background">
+        <nav class="navbar">
+                <div class="logo"><img src="./icons/nav-logo.svg" alt=""> Animal Insights</div>
+                    <ul class="nav-links">
+                    <input type="checkbox" id="checkbox_toggle" />
+                    <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+                    <div class="menu">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/">About</a></li>
+                        <li><a href="/">Pricing</a></li>
+                        <li><a href="/">Contact</a></li>
+                        <li class="services">
+                            <a href="/">Services</a>
+                            <ul class="dropdown">
+                                <li><a href="/">Dropdown 1 </a></li>
+                                <li><a href="/">Dropdown 2</a></li>
+                                <li><a href="/">Dropdown 2</a></li>
+                                <li><a href="/">Dropdown 3</a></li>
+                                <li><a href="/">Dropdown 4</a></li>
+                            </ul>
+                        </li>
+                    </div>
+                </ul>
+            </nav>
+
+        <div class="centered">
+            <sub>Welcome</sub>
+            <h1>We are Animal Insights</h1>
+            <p>“Where intelligence meets your furry loved ones”</p>
+            <button>Explore</button>
         </div>
-
-        <div class="links">
-            <a href="./about.html">About</a>
-            <a href="./team.html">Team</a>
-            <a href="./contact.html">Contact</a>
-            <a href="./projects.html"><button>Projects</button></a>
-        </div>
-    </nav>
-
-
-    <footer><a href="#">Terms of Use & Privacy Policy</a></footer>
+        <footer><a href="#">Terms of Use & Privacy Policy</a></footer>
+    </div>
     <script src="./script.js"></script>
 </body>
 </html>
