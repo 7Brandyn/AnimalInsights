@@ -17,8 +17,11 @@
 
 body {
     height: 100%;
-    background: linear-gradient(180deg, #3988E4 0%, #91FFF2 45.62%, rgba(166, 255, 196, 0) 100%);
     font-family: 'Poppins', sans-serif;
+}
+
+p {
+    font-size: 20px;
 }
 
 a {
@@ -42,56 +45,22 @@ h1 {
     font-size: 64px;
 }
 
-h2 {
-
-}
-
-nav {
-
-}
-
-.centered {
-    padding-bottom: 10%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-}
-
-.centered p {
-    margin: 16px 0;
+button {
     font-size: 20px;
-}
-
-
-.centered button {
-    margin-top: 8px;
-    font-size: 20px;
-    color: var(--dark);
+    font-weight: bold;
+    color: inherit;
     padding: 8px 16px;
-    border: 4px solid var(--dark);
+    border: inherit;
     border-radius: 16px;
     background-color: transparent;
-    transition: .4s;
 }
 
-.centered button:hover,
-.centered button:active {
+button:hover,
+button:active {
     cursor: pointer;
+    background-color: inherit;
 }
 
-.image_background {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100vh;
-    /* overflow: hidden; */
-    background-image: url("/img/landscape.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top;
-}
 
 /* NAVBAR STYLING STARTS */
 .navbar {
@@ -100,11 +69,11 @@ nav {
     justify-content: space-between;
     padding: 20px;
     background-color: transparent;
-    color: var(--white);
+    color: inherit;
 }
 
 .nav-links a {
-    color: var(--white);
+    color: inherit;
 }
 
 .logo a {
@@ -124,7 +93,7 @@ nav {
 }
 
 .menu li:hover {
-    background-color: var(--gray-0);
+    background-color: inherit;
     border-radius: 5px;
     transition: 0.4s ease;
 }
@@ -138,7 +107,7 @@ nav {
 }
 
 .dropdown {
-    background-color: var(--gray-0);
+    background-color: inherit;
     padding: 1em 0;
     position: absolute; /*WITH RESPECT TO PARENT*/
     display: none;
@@ -158,7 +127,7 @@ nav {
 }
 
 .dropdown li:hover {
-    background-color: var(--green-0);
+    background-color: inherit;
 }
 
 .services:hover .dropdown {
@@ -190,11 +159,9 @@ input[type=checkbox] {
 
     .menu li:hover {
         display: inline-block;
-        background-color:var(--gray-0);
+        background-color: inherit;
         transition: 0.4s ease;
     }
-
-    
 
     .menu li + li {
         margin-top: 12px;
@@ -239,4 +206,12 @@ footer a:hover {
     transition: .4s;
     color: inherit;
     text-decoration: underline;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
 }
