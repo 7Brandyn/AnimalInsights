@@ -12,4 +12,5 @@ Here is version 0.1 of Animal Insights' website. Future website will be made usi
 *   \-Projects (0% completed)
 *   \-Terms of use (90% completed)
 *   \-Privacy policy (90% completed)
-*   \*\*Important: Images, graphics, and description will have to be provided by the rest of the team.
+
+\*\*Important: Images, graphics, and description will have to be provided by the rest of the team.
