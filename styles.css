@@ -221,11 +221,13 @@ footer {
 }
 
 footer a {
+    transition: .4s;
     color: var(--faded);
     text-decoration: underline;
 }
 
 footer a:hover {
+    transition: .4s;
     color: inherit;
     text-decoration: underline;
 }
