@@ -1,0 +1,43 @@
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: skyblue;
+}
+
+.container {
+    padding: 0 80px;
+}
+
+.text-content p {
+    padding: 8px 0;
+}
+
+.nav-links a {
+    color: var(--dark);
+}
+
+.team-viewer {
+    text-align: center;
+    padding: 0 80px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.circle {
+    width: 180px;
+    height: 180px;
+    background-color: #fff;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.circle img {
+    width: 100%;
+    height: auto;
+}

@@ -8,14 +8,17 @@ body {
     justify-content: space-between;
     background-color: skyblue;
 }
+button {
+    margin-top: 8px;
+    border: 4px solid;
+}
 
 .container {
     padding: 0 80px;
 }
 
-button {
-    margin-top: 8px;
-    border: 4px solid;
+.text-content p {
+    padding: 8px 0;
 }
 
 .nav-links a {
