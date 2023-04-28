@@ -9,32 +9,21 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Sora:wght@800&display=swap" rel="stylesheet">
     <link rel="icon" type="image/png" href="/icons/favicon-32x32.png" sizes="32x32" />
     <link rel="icon" type="image/png" href="/icons/favicon-16x16.png" sizes="16x16" />
-
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <link rel="stylesheet" href="./styles.css">
     <title>Animal Insights</title>
 </head>
 <body>
     <div class="image_background">
-        <nav class="navbar">
-                <div class="logo"><a href="/index.html"><img src="./icons/nav-logo.svg" alt=""> Animal Insights</a></div>
-                    <ul class="nav-links">
-                    <input type="checkbox" id="checkbox_toggle" />
-                    <label for="checkbox_toggle" class="hamburger">&#9776;</label>
-                    <div class="menu">
-                        <li><a href="/index.html">Home</a></li>
-                        <li><a href="/about.html">About</a></li>
-                        <li><a href="/team.html">Team</a></li>
-                        <li><a href="/contact.html">Contact</a></li>
-                        <li class="services">
-                            <a href="/">Projects</a>
-                            <ul class="dropdown">
-                                <li><a href="/">Sustain Our Shelters</a></li>
-                                <li><a href="/">PetCode</a></li>
-                            </ul>
-                        </li>
-                    </div>
-                </ul>
-            </nav>
+
+        <div id="nav-placeholder"></div>
+  
+        <script>
+        $(function(){
+          $("#nav-placeholder").load("components/nav.html");
+          $("#footer-placeholder").load("components/footer.html");
+        });
+        </script>
 
         <div class="centered">
             <sub>Welcome</sub>
@@ -42,7 +31,7 @@
             <p>“Where intelligence meets your furry loved ones”</p>
             <button>Explore</button>
         </div>
-        <footer><a href="terms.html">Terms of Use & Privacy Policy</a></footer>
+        <div id="footer-placeholder"></div>
     </div>
     <script src="./script.js"></script>
 </body>
