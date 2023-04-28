@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --red-0: #D95F57;
+    --orange-0: #F2865E;
+    --yellow-0: #FABE2C;
+    --green-0: #9A9055;
+    --gray-0: #B4BFC1;
+    --dark: #333;
+    --white: #fff;
+    --faded: #505156;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-family: 'Sora', sans-serif;
+}
+
+h3 {
+    
+}
+
+nav {
+    color: inherit;
+}
