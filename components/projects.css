@@ -1,0 +1,23 @@
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: skyblue;
+}
+
+.container {
+    padding: 0 80px;
+}
+
+button {
+    margin-top: 8px;
+    border: 4px solid;
+}
+
+.nav-links a {
+    color: var(--dark);
+}
