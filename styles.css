@@ -71,7 +71,6 @@ img {
 }
 
 /* NAVBAR STYLING STARTS */
-.nav-placeholder {z-index: 3;}
 .navbar {
     display: flex;
     align-items: center;
@@ -96,6 +95,7 @@ img {
 }
 
 .menu {
+    z-index: 3;
     display: flex;
     gap: 1em;
     font-size: 20px;
