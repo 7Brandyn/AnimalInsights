@@ -31,6 +31,10 @@ button {
     border-radius: 40px;
 }
 
+.menu li:hover {
+    background-color: var(--yellow-40);
+}
+
 @media (max-width: 768px) {
     .container {
         display: flex;

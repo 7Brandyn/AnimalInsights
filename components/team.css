@@ -57,6 +57,11 @@ body {
 .column {
     display: flex;
 }
+
+.menu li:hover {
+    background-color: var(--orange-40);
+}
+
 @media (max-width: 768px) {
     h1 {
         font-size: 32px;

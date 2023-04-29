@@ -19,10 +19,17 @@ button {
 }
 
 
+.text-content p {
+    width: 80%;
+}
+
 .nav-links a {
     color: var(--dark);
 }
 
+.menu li:hover {
+    background-color: var(--red-40);
+}
 
 @media (max-width: 600px) {
     .container {
@@ -66,5 +73,10 @@ button {
 
     .menu li a:hover {
         color: white;
+    }
+
+    
+    .text-content p {
+        width: 100%;
     }
 }

@@ -33,6 +33,10 @@ button {
     width: -webkit-fill-available;
 }
 
+.menu li:hover {
+    background-color: var(--faded);
+}
+
 @media (max-width: 768px) {
     .container {
         display: flex;
