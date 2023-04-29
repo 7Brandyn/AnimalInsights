@@ -6,10 +6,13 @@
 
 :root {
     --red-0: #D95F57;
+    --red-blend: hsla(4, 63%, 60%, 0.8);
     --orange-0: #F2865E;
-    --orange-blend: hsl(16, 85%, 66%, .4);
+    --orange-blend: hsl(16, 85%, 66%, .8);
     --yellow-0: #FABE2C;
+    --yellow-blend: hsla(43, 95%, 58%, 0.8);
     --green-0: #9A9055;
+    --green-blend: hsla(51, 29%, 47%, 0.8);
     --gray-0: #b9cacd;
     --dark: #333;
     --white: #fff;
@@ -98,7 +101,7 @@ img {
 .menu {
     z-index: 3;
     display: flex;
-    gap: 1em;
+    /* gap: 1em; */
     font-size: 20px;
 }
 
@@ -173,6 +176,7 @@ footer a:hover {
 
 @media (max-width: 768px) {
     .menu {
+        gap: 1em;
         display: none;
         position: absolute;
         background-color: inherit;

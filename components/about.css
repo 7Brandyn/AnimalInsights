@@ -54,4 +54,17 @@ button {
         min-height: auto;
         max-height: 250px;
     }
+
+    .menu {
+        background-color: var(--red-blend);
+    }
+
+    .menu li:hover {
+        background-color: var(--faded);
+        color: white;
+    }
+
+    .menu li a:hover {
+        color: white;
+    }
 }

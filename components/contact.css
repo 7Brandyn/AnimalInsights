@@ -18,6 +18,10 @@ button {
     border: 4px solid;
 }
 
+.text-content p {
+    width: 80%;
+}
+
 .nav-links a {
     color: var(--dark);
 }
@@ -37,5 +41,22 @@ button {
 
     .image-content img {
         height: 280px;
+    }
+
+    .text-content p {
+        width: 100%;
+    }
+
+    .menu {
+        background-color: var(--yellow-blend);
+    }
+
+    .menu li:hover {
+        background-color: var(--faded);
+        color: white;
+    }
+
+    .menu li a:hover {
+        color: white;
     }
 }

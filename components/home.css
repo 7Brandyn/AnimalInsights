@@ -47,7 +47,7 @@ button {
 
 button:hover,
 button:active {
-    background-color: var(--white);
+    background-color: rgb(98, 235, 98);
 }
 
 .image_background {
@@ -59,4 +59,19 @@ button:active {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
+}
+
+@media (max-width: 768px) {
+    .menu {
+        background: linear-gradient(180deg, hsla(212, 59%, 28%, 0.01) 0%, hsla(173, 87%, 22%, 0.8) 45.62%, rgba(8, 51, 23, 0.8) 100%);
+    }
+
+    .menu li:hover {
+        background-color: var(--faded);
+        color: white;
+    }
+
+    .menu li a:hover {
+        color: white;
+    }
 }

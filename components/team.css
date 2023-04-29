@@ -111,6 +111,15 @@ body {
         background-color: var(--orange-blend);
     }
 
+    .menu li:hover {
+        background-color: var(--faded);
+        color: white;
+    }
+
+    .menu li a:hover {
+        color: white;
+    }
+
     .member {
         display: flex;
         flex-direction: column;
