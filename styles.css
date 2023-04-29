@@ -9,10 +9,10 @@
     --orange-0: #F2865E;
     --yellow-0: #FABE2C;
     --green-0: #9A9055;
-    --gray-0: #B4BFC1;
+    --gray-0: #b9cacd;
     --dark: #333;
     --white: #fff;
-    --faded: #505156a2;
+    --faded: #50515690;
 }
 
 body {
@@ -71,6 +71,7 @@ img {
 }
 
 /* NAVBAR STYLING STARTS */
+.nav-placeholder {z-index: 3;}
 .navbar {
     display: flex;
     align-items: center;
@@ -152,9 +153,26 @@ input[type=checkbox] {
     user-select: none;
 }
 
+footer {
+    width: 100%;
+    text-align: center;
+}
+
+footer a {
+    transition: .4s;
+    color: var(--faded);
+    text-decoration: underline;
+}
+
+footer a:hover {
+    transition: .4s;
+    color: inherit;
+    text-decoration: underline;
+}
+
 @media (max-width: 768px) {
     .menu {
-        display:none;
+        display: none;
         position: absolute;
         background-color: transparent;
         backdrop-filter: blur(5px);
@@ -176,7 +194,9 @@ input[type=checkbox] {
     }
 
     input[type=checkbox]:checked ~ .menu {
-        display: block;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     .hamburger {
@@ -197,23 +217,35 @@ input[type=checkbox] {
     .dropdown li:hover {
         background-color: var(--green-0);
     }
+
+    .logo a > div {
+        display: flex;
+        align-items: center;
+        font-size: 20px;
+    }
 }
 
-footer {
-    width: 100%;
-    text-align: center;
-}
+@media (max-width: 600px) {
+    h1 {
+        font-size: 32px;
+    }
 
-footer a {
-    transition: .4s;
-    color: var(--faded);
-    text-decoration: underline;
-}
+    p {
+        font-size: 15px;
+    }
 
-footer a:hover {
-    transition: .4s;
-    color: inherit;
-    text-decoration: underline;
+    sub {
+        font-size: 12px;
+    }
+
+    footer > a {
+        font-size: 10px;
+        font-weight: lighter;
+    }
+
+    button {
+        font-size: 14px;
+    }
 }
 
 .container {
@@ -222,8 +254,4 @@ footer a:hover {
     align-items: center;
     width: 100%;
     height: 100%;
-}
-
-.text-content p {
-    max-width: 80%;
 }

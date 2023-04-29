@@ -24,3 +24,31 @@ button {
 .nav-links a {
     color: var(--dark);
 }
+
+.image-content {
+    width: 50%;
+}
+
+.image-content img {
+    width: -webkit-fill-available;
+}
+
+@media (max-width: 768px) {
+    .container {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+        text-align: center;
+        padding: 0 30px;
+    }
+
+    .image-content {
+        width: auto;
+    }
+
+    .image-content img {
+        width: 100%;
+        min-height: auto;
+        max-height: 250px;
+    }
+}

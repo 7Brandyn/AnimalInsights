@@ -13,8 +13,9 @@ body {
     padding: 0 80px;
 }
 
+
 .text-content p {
-    padding: 8px 0;
+    width: 80%;
 }
 
 .nav-links a {
@@ -23,14 +24,21 @@ body {
 
 .team-viewer {
     text-align: center;
-    padding: 24px 80px 0 0;
+    padding-top: 24px;
     display: flex;
-    width: 100%;
-    justify-content: space-between;
+    max-width: 100%;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.member {
+    margin: 8px;
+    height: auto;
+    max-width: 100%;
 }
 
 .circle {
-    width: 100px;
+    max-width: 100px;
     height: 100px;
     background-color: #fff;
     border-radius: 50%;
@@ -38,6 +46,71 @@ body {
 }
 
 .circle img {
+    max-width: 100px;
+    height: 100%;
+}
+
+.image-content img {
     width: 100%;
-    height: auto;
+}
+
+.column {
+    display: flex;
+}
+@media (max-width: 768px) {
+    h1 {
+        font-size: 32px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    sub {
+        font-size: 12px;
+    }
+
+    footer > a {
+        font-size: 10px;
+        font-weight: lighter;
+    }
+
+    button {
+        font-size: 14px;
+    }
+    
+    .container {
+        padding: 0 30px;
+        flex-direction: column-reverse;
+    }
+
+    .image-content img {
+        display: none;
+        max-height: 200px;
+    }
+
+    .team-viewer {
+        padding: 0;
+        justify-content: space-between;
+    }
+
+    .circle {
+        max-width: 60px;
+        height: 60px;
+    }
+
+    .text-content {
+        text-align: center;
+    }
+
+    .text-content p {
+        width: 100%;
+    }
+
+    .member {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 80px;
+    }
 }
