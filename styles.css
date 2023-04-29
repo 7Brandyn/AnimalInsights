@@ -7,6 +7,7 @@
 :root {
     --red-0: #D95F57;
     --orange-0: #F2865E;
+    --orange-blend: hsl(16, 85%, 66%, .4);
     --yellow-0: #FABE2C;
     --green-0: #9A9055;
     --gray-0: #b9cacd;
@@ -174,7 +175,7 @@ footer a:hover {
     .menu {
         display: none;
         position: absolute;
-        background-color: transparent;
+        background-color: inherit;
         backdrop-filter: blur(5px);
         height: 91.5%;
         right: 0;

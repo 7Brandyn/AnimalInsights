@@ -107,6 +107,10 @@ body {
         width: 100%;
     }
 
+    .menu {
+        background-color: var(--orange-blend);
+    }
+
     .member {
         display: flex;
         flex-direction: column;
