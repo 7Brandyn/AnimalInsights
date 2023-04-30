@@ -14,11 +14,11 @@ Here is version 0.1 of Animal Insights' website. Future website will be made usi
 *   \-Privacy policy (0% completed)
 *   \-Mobile Responsiveness (90% completed)
 
--Team needs to showcase each individual person, a brief description about themselves, and their socials if they have them using javascript
--Almost all images need to be replaced
--Include animations
--Add designated email to contact page
--Add Animal Insights socials to footer
+*-Team needs to showcase each individual person, a brief description about themselves, and their socials if they have them using javascript
+*-Almost all images need to be replaced
+*-Include animations
+*-Add designated email to contact page
+*-Add Animal Insights socials to footer
 
 \*\*Important: Images, graphics, and description will have to be provided by the rest of the team.
 
