@@ -84,6 +84,9 @@ button:hover {
         color: white;
     }
 
+    .hamburger {
+        background-color: var(--red-40);
+    }
     
     .text-content p {
         width: 100%;

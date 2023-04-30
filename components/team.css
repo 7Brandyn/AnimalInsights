@@ -50,8 +50,26 @@ body {
     height: 100%;
 }
 
+.image-content {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.image-content a {
+    float: right;
+    color: #4d4d4d;
+    font-size: 24px;
+}
+
+.image-content a:hover,
+.image-content a:active {
+    text-decoration: underline;
+}
+
 .image-content img {
-    width: 100%;
+    max-width: 100%;
+    height: fit-content;
 }
 
 .column {
@@ -62,7 +80,11 @@ body {
     background-color: var(--orange-40);
 }
 
-@media (max-width: 768px) {
+#back {
+    display: none;
+}
+
+@media (max-width: 900px) {
     h1 {
         font-size: 32px;
     }
@@ -83,18 +105,20 @@ body {
     button {
         font-size: 14px;
     }
-    
+}
+
+@media (max-width: 768px) {
+    .hamburger {
+        background-color: var(--orange-40);
+    }
+
     .container {
         padding: 0 30px;
         flex-direction: column-reverse;
     }
 
-    .image-content img {
-        display: none;
-        max-height: 200px;
-    }
-
     .team-viewer {
+        max-height: 200px;
         padding: 0;
         justify-content: space-between;
     }
@@ -130,5 +154,15 @@ body {
         flex-direction: column;
         align-items: center;
         max-width: 80px;
+    }
+
+    .image-content a {
+        padding: 8px;
+        float: none;
+        text-align: center;
+    }
+
+    .image-content img {
+        min-width: auto;
     }
 }

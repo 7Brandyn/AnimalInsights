@@ -67,4 +67,8 @@ button:hover {
     .menu li a:hover {
         color: white;
     }
+
+    .hamburger {
+        background-color: var(--yellow-40);
+    }
 }
