@@ -122,18 +122,20 @@ button:active {
     }
 
     #dog1,
-    #dog2,
     #dog3 {
         width: 80px;
+        bottom: 20px;
+    }
+
+    #dog2 {
+        display: none;
     }
 
     #dog1 {
         left: 50px;
-        bottom: 20px;
     }
 
     #dog3 {
         right: 50px;
-        bottom: 20px;
     }
 }
