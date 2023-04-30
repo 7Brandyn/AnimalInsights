@@ -66,12 +66,19 @@ button {
     border: inherit;
     border-radius: 16px;
     background-color: transparent;
+    transition: .4s;
 }
 
 button:hover,
 button:active {
     cursor: pointer;
     background-color: inherit;
+    color: white;
+}
+
+button:active {
+    border: 4px solid transparent;
+    transition: 0s;
 }
 
 img {

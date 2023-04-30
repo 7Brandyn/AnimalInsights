@@ -8,9 +8,14 @@ body {
     justify-content: space-between;
     background-color: skyblue;
 }
+
 button {
     margin-top: 8px;
     border: 4px solid;
+}
+
+button:hover {
+    background-color: var(--faded);
 }
 
 .container {
