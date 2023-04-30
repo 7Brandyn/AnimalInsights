@@ -21,5 +21,6 @@ Here is version 0.1 of Animal Insights' website. Future website will be made usi
 *   \-Include animations
 *   \-Add designated email to contact page
 *   \-Add Animal Insights socials to footer
+*   \-Navbar needs to be up to spec, especially with mobile
 
 \*\*Important: Images, graphics, and description will have to be provided by the rest of the team.
