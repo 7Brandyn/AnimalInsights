@@ -86,7 +86,6 @@ img {
     width: auto;
 }
 
-/* NAVBAR STYLING STARTS */
 .navbar {
     display: flex;
     align-items: center;
@@ -138,7 +137,7 @@ img {
 .dropdown {
     background-color: inherit;
     padding: 1em 0;
-    position: absolute; /*WITH RESPECT TO PARENT*/
+    position: absolute;
     display: none;
     border-radius: 8px;
     top: 35px;
