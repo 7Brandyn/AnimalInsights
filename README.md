@@ -16,6 +16,7 @@ Here is version 0.1 of Animal Insights' website. Future website will be made usi
 
 ### Todo List:
 
+*   \-Images need to be compressed and resized
 *   \-Team needs to showcase each individual person, a brief description about themselves, and their socials if they have them using javascript
 *   \-Almost all images need to be replaced
 *   \-Include animations
