@@ -3,15 +3,25 @@ Animal Insights
 
 Here is version 0.1 of Animal Insights' website. Future website will be made using ReactJs, but for quick-launch purposes, basic html, css, and js/json will have to suffice.
 
-### Todo List:
+### Completion:
 
-*   \-Home (60% completed)
-*   \-About (40% completed)
-*   \-Team (20% completed)
-*   \-Contact (40% completed)
-*   \-Projects (40% completed)
+*   \-Home (90% completed)
+*   \-About (80% completed)
+*   \-Team (40% completed)
+*   \-Contact (90% completed)
+*   \-Projects (70% completed)
 *   \-Terms of use (90% completed)
 *   \-Privacy policy (0% completed)
-*   \-Mobile Responsiveness (10% completed)
+*   \-Mobile Responsiveness (90% completed)
+
+### Todo List:
+
+*   \-Images need to be compressed and resized
+*   \-Team needs to showcase each individual person, a brief description about themselves, and their socials if they have them using javascript
+*   \-Almost all images need to be replaced
+*   \-Include animations
+*   \-Add designated email to contact page
+*   \-Add Animal Insights socials to footer
+*   \-Navbar needs to be up to spec, especially with mobile
 
 \*\*Important: Images, graphics, and description will have to be provided by the rest of the team.
