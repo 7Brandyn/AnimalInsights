@@ -209,11 +209,29 @@ input[type=checkbox] {
     user-select: none;
 }
 
+.main2 {
+    display: flex;
+    z-index: 4;
+    height: 100%;
+    justify-content: space-between;
+}
+
 .main {
     display: flex;
     padding: 0 30px;
     height: 100%;
     z-index: 4;
+}
+
+.pro-text {
+    max-width: 50vw;
+    display: flex;
+    align-items: center;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    padding: 0 30px;
 }
 
 .main-content {
@@ -227,7 +245,7 @@ input[type=checkbox] {
     flex-direction: column;
 }
 
-.main-content img {
+.main-content .team-image {
     width: 50%;
 }
 
@@ -307,6 +325,22 @@ input[type=checkbox] {
 
 .contact-content {
     width: 50%;
+}
+
+
+.appimg {
+    position: absolute;
+    min-height: 120vh;
+    object-fit: cover;
+    max-width: 50%;
+    right: 0%;
+    bottom: 50%;
+    top: 55%;
+    margin: auto;
+}
+
+.appimg img {
+    height: 120vh;
 }
 
 .contactimg {
