@@ -307,7 +307,10 @@ input[type=checkbox] {
 
 .contactimg {
     position: absolute;
-    height: 120vh;
+    min-height: 120vh;
+    height: auto;
+    object-fit: cover;
+    max-width: 50vw;
     right: 0%;
     bottom: 50%;
     top: 55%;
