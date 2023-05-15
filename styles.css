@@ -5,22 +5,23 @@
 }
 
 :root {
-    --red-0: #D95F57;
-    --red-40: #8b3b36;
-    --red-blend: hsla(4, 63%, 60%, 0.8);
-    --orange-0: #F2865E;
-    --orange-40:rgb(143, 79, 56);
-    --orange-blend: hsl(16, 85%, 66%, .8);
-    --yellow-0: #FABE2C;
-    --yellow-40: #906e18;
-    --yellow-blend: hsla(43, 95%, 58%, 0.8);
-    --green-0: #9A9055;
-    --green-40: #4b462a;
-    --green-blend: hsla(51, 29%, 47%, 0.8);
-    --gray-0: #b9cacd;
-    --dark: #333;
-    --white: #fff;
+    --red: #D95F57;
+    --red-hover: #D0392F;
+    --red-press: #A62E26;
+    --orange: #F07142;
+    --orange-hover: #EC4E13;
+    --orange-press: #BD3E0F;
+    --yellow: #FAC238;
+    --yellow-hover: #F9B206;
+    --yellow-press: #C78F05;
+    --green: #99CC66;
+    --green-hover: #7FBF40;
+    --green-press: #669933;
+    --dark: #333333;
+    --dark-hover: #252528;
+    --dark-press: #19191A;
     --faded: #50515690;
+    --nav-blend: #ffffffbe;
 }
 
 html {
@@ -96,7 +97,7 @@ button:active {
     align-items: center;
     justify-content: space-between;
     padding: 20px;
-    background-color: #ffffffbe;
+    background-color: var(--nav-blend);
     color: inherit;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
 }
@@ -289,8 +290,12 @@ input[type=checkbox] {
 }
 
 footer {
+    display: flex;
+    justify-content: space-between;
     width: 100%;
-    text-align: center;
+    padding: 0 30px;
+    margin-bottom: 12px;
+    font-size: 12px;
 }
 
 footer a {
