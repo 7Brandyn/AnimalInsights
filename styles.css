@@ -227,6 +227,10 @@ input[type=checkbox] {
     flex-direction: column;
 }
 
+.main-content img {
+    width: 50%;
+}
+
 .main-text {
     flex-direction: column;
     justify-content: center;
