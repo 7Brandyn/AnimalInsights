@@ -17,6 +17,9 @@
     --green: #99CC66;
     --green-hover: #7FBF40;
     --green-press: #669933;
+    --project: #236B9F;
+    --project-hover: #1B5884;
+    --project-press: #133D5C;
     --dark: #333333;
     --dark-hover: #252528;
     --dark-press: #19191A;
@@ -67,6 +70,7 @@ h5 {
 }
 
 button {
+    cursor: pointer;
     font-size: 16px;
     font-weight: 600;
     padding: 10px 16px;
@@ -86,8 +90,17 @@ button {
     color: black;
 }
 
+.project-btn{background-color: var(--project);}
 .about-btn {background-color: var(--red);}
 .contact-btn {background-color: var(--yellow);}
+
+.project-btn:hover{background-color: var(--project-hover);}
+.about-btn:hover {background-color: var(--red-hover);}
+.contact-btn:hover {background-color: var(--yellow-hover);}
+
+.project-btn:active{background-color: var(--project-press);}
+.about-btn:active {background-color: var(--red-press);}
+.contact-btn:active {background-color: var(--yellow-press);}
 
 #nav-placeholder {
     z-index: 9;
@@ -231,6 +244,7 @@ input[type=checkbox] {
     justify-content: center;
     flex-direction: column;
     height: 100%;
+    z-index: 2;
     padding: 0 30px;
 }
 
@@ -260,9 +274,10 @@ input[type=checkbox] {
     flex-direction: column;
 }
 
-.text-content ul li {
+.text-content ul li,
+.pro-text ul li {
     list-style: inside;
-    padding-left: 40px;
+    padding-left: 24px;
 }
 
 .bg-images {
@@ -327,16 +342,18 @@ input[type=checkbox] {
     width: 50%;
 }
 
-
 .appimg {
     position: absolute;
     min-height: 120vh;
     object-fit: cover;
-    max-width: 50%;
     right: 0%;
     bottom: 50%;
     top: 55%;
     margin: auto;
+}
+
+.half {
+    display: none;
 }
 
 .appimg img {
@@ -348,7 +365,7 @@ input[type=checkbox] {
     min-height: 120vh;
     height: auto;
     object-fit: cover;
-    max-width: 50vw;
+    max-width: 55vw;
     right: 0%;
     bottom: 50%;
     top: 55%;
@@ -387,6 +404,44 @@ footer p {
 }
 
 @media (max-width: 768px) {
+    body {
+        align-items: center;
+    }
+
+    h1 {
+        font-size: 48px;
+        line-height: 1.25;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    sub {
+        font-size: 12px;
+    }
+
+    footer > a {
+        font-size: 10px;
+        font-weight: lighter;
+    }
+
+    button {
+        font-size: 14px;
+    }
+
+    .half {
+        display: inline;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+
+    .navbar {
+        box-shadow: none;
+        background-color: transparent;
+    }
+
     .menu {
         gap: 1em;
         display: none;
@@ -427,9 +482,10 @@ footer p {
         justify-content: center;
         align-items: center;
         bottom: 40px;
-        left: 30px;
+        right: 30px;
         z-index: 6;
         border-radius: 50px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
     }
 
     .dropdown {
@@ -443,32 +499,69 @@ footer p {
         width: 100%;
     }
 
+    .logo {
+        display: none;
+    }
+
     .logo a > div {
         display: flex;
         align-items: center;
         font-size: 20px;
     }
-}
 
-@media (max-width: 600px) {
-    h1 {
-        font-size: 32px;
+    .big-logo {
+        top: -30px;
+        height: 300px;
+        width: 300px;
     }
 
-    p {
-        font-size: 15px;
+    .device {
+        display: none;
     }
 
-    sub {
+    .contactimg {
+        position: absolute;
+        height: auto;
+        max-width: 100%;
+        right: 0;
+        bottom: unset;
+        left: 0;
+        margin: auto;
+    }
+
+    .contact-content {
+        width: 100%;
+    }
+
+    .main-content {
+        flex-direction: column;
+        padding: 0 18px;
+        justify-content: center;
+    }
+
+    .text-content {
+        padding-top: 30px;
+        max-width: none;
+    }
+
+    .main-content .team-image {
+        width: 80%;
+        height: auto;
+    }
+    
+    footer {
+        flex-direction: column;
         font-size: 12px;
     }
 
-    footer > a {
-        font-size: 10px;
-        font-weight: lighter;
+    #footer-placeholder {
+        position: unset;
+        z-index: 9;
+        opacity: 1;
     }
 
-    button {
-        font-size: 14px;
-    }
+}
+
+@media (max-width: 600px) {
+
 }
