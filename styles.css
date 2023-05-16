@@ -298,9 +298,13 @@ input[type=checkbox] {
     bottom: -30px;
     opacity: 0.6;
     transform: rotate(-12.05deg);
+    z-index: -1;
+    position: fixed;
 }
 
 .heart {
+    z-index: -1;
+    position: fixed;
     overflow: hidden;
     position: absolute;
     width: 430px;
@@ -533,7 +537,8 @@ footer p {
     .big-logo {
         top: -30px;
         height: 300px;
-        width: 300px;
+        z-index: -1;
+        position: fixed;
     }
 
     .device {
