@@ -209,7 +209,7 @@ button {
     background-color: var(--dark-press);
 }
 
-.services .dropdown {
+.services:hover .dropdown {
     display: block;
 }
 
@@ -495,7 +495,9 @@ footer p {
         pointer-events: none;
     }
 
-
+    .services .dropdown {
+        display: block;
+    }
 
     .dropdown {
         display: unset;
@@ -550,6 +552,7 @@ footer p {
     }
 
     .main-content {
+        width: 100%;
         flex-direction: column;
         padding: 0 18px;
         justify-content: center;
