@@ -351,6 +351,7 @@ input[type=checkbox] {
 }
 
 .laptop {
+    width: 100%;
     max-height: 260px;
 }
 
