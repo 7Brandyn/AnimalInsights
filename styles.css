@@ -297,7 +297,6 @@ input[type=checkbox] {
     height: 100%;
     width: 100%;
     background-size: 100%;
-    background-image: url('xx.jpg');
     background-attachment: fixed;
 }
 
