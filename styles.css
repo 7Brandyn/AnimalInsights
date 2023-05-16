@@ -366,7 +366,7 @@ input[type=checkbox] {
     height: auto;
     object-fit: cover;
     max-width: 55vw;
-    right: 0%;
+    right: -10%;
     bottom: 50%;
     top: 55%;
     margin: auto;
@@ -434,6 +434,8 @@ footer p {
         display: inline;
         position: absolute;
         bottom: 0;
+        object-fit: cover;
+        max-height: 400px;
         width: 100%;
     }
 
@@ -520,10 +522,10 @@ footer p {
     }
 
     .contactimg {
+        display: none;
         position: absolute;
         height: auto;
         max-width: 100%;
-        right: 0;
         bottom: unset;
         left: 0;
         margin: auto;
