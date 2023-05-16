@@ -492,8 +492,10 @@ footer p {
     }
 
     .services a {
-        touch-action: none;
+        pointer-events: none;
     }
+
+
 
     .dropdown {
         display: unset;
@@ -507,6 +509,10 @@ footer p {
     .dropdown li {
         width: 100%;
         padding-bottom: 16px;
+    }
+
+    .dropdown li a {
+        pointer-events: all;
     }
 
     .logo {
