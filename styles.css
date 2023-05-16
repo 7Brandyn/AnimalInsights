@@ -550,6 +550,35 @@ footer p {
         width: 80%;
         height: auto;
     }
+
+    .appimg {
+        min-height: 0;
+        width: 100%;
+        display: flex;
+        min-height: 0;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        bottom: unset;
+        top: 65%;
+        right: 0;
+    }
+
+    .appimg img:nth-child(1) {
+        width: 50%;
+        height: auto;
+    }
+
+    .appimg img:nth-child(2) {
+        width: 50%;
+        height: auto;
+    }
+
+    .pro-text {
+        max-width: 100%;
+        padding: 0 18px;
+    }
     
     footer {
         flex-direction: column;
@@ -564,6 +593,8 @@ footer p {
 
 }
 
-@media (max-width: 600px) {
-
+@media (max-width: 1134px) and (min-width: 769px) {
+    .appimg {
+        right: -20%;
+    }
 }
