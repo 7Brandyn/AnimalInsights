@@ -192,7 +192,6 @@ button {
 .dropdown li a:active {background-color: var(--dark-press);}
 
 .services {
-    margin-top: 8px;
     transform: none;
     cursor: pointer;
     border-radius: 16px;
@@ -489,6 +488,10 @@ footer p {
         z-index: 6;
         border-radius: 50px;
         box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    }
+
+    .services {
+        margin-top: 8px;
     }
 
     .services a {
