@@ -451,7 +451,7 @@ footer p {
         position: absolute;
         bottom: 0;
         object-fit: cover;
-        max-height: 400px;
+        max-height: 50%;
         width: 100%;
     }
 
